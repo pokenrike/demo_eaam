@@ -1,4 +1,14 @@
 ### Rest Crud with Java
+El proyecto esta desarrollado con conexión via JPA a una base de datos mysql.
+Se creo una tabla TB_Clientes 
+| name  |type   |
+| ------------ | ------------ |
+|  id | int PK |
+|  nombre | varchar(45)  |
+|  apellido | varchar(45)  |
+| nacimiento  |Date   |
+|  email | varchar(100)  |
+
 ## Como funciona?
 1.  Primero se debe consumir el servicio como POST
 
