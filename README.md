@@ -46,7 +46,7 @@ Crear cliente POST: http://localhost:8082/clientes
 Editar Cliente PUT: http://localhost:8082/clientes/1 (numero de id)
 Eliminar Cliente DELETE: http://localhost:8082/clientes/1 (numero de id)
 
-###### Cuerpo para crear y eliminar
+###### Cuerpo para crear y editar
  
 
       {
