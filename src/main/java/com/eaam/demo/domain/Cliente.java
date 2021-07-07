@@ -27,7 +27,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 public class Cliente implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
      @Size(min = 3, max = 45, message 
       = "El nombre debe ser de largo minimo 3")
@@ -40,7 +40,5 @@ public class Cliente implements Serializable {
     @Email
     @NotBlank(message = "El mail es obligatorio")
     private String email;
-    @Max(value = 150, message = "El largo maximo del telefono es de 8")
-    private int telefono;
 
 }
